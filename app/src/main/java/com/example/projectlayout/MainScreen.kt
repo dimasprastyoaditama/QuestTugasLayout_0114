@@ -36,5 +36,14 @@ fun MainScreen(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
+        // Card 1
+        CardWidget(
+            bgColor = colorResource(id = R.color.card_1_bg),
+            nama = stringResource(id = R.string.nama_1),
+            alamat = stringResource(id = R.string.alamat_1),
+            namaColor = colorResource(id = R.color.text_yellow),
+            alamatColor = colorResource(id = R.color.text_white)
+        )
+
     }
 }
