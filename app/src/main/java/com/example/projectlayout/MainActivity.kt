@@ -17,7 +17,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             ProjectLayoutTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
+                    MainScreen(
+                        modifier = Modifier.padding(innerPadding)
+                    )
                 }
             }
         }
