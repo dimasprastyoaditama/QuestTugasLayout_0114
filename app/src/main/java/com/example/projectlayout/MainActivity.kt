@@ -15,7 +15,11 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
+            ProjectLayoutTheme {
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 
+                }
+            }
         }
     }
 }
