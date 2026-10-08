@@ -56,6 +56,17 @@ fun MainScreen(modifier: Modifier = Modifier) {
             teleponColor = colorResource(id = R.color.text_cyan)
         )
 
+        // Card 3
+        CardWidget(
+            bgColor = colorResource(id = R.color.card_3_bg),
+            nama = stringResource(id = R.string.nama_3),
+            telepon = stringResource(id = R.string.telp_3),
+            alamat = stringResource(id = R.string.alamat_3),
+            namaColor = colorResource(id = R.color.text_white),
+            alamatColor = colorResource(id = R.color.text_cyan),
+            teleponColor = colorResource(id = R.color.text_cyan)
+        )
+
 
     }
 }
