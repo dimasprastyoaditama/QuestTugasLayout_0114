@@ -13,6 +13,9 @@ import com.example.projectlayout.ui.theme.ProjectLayoutTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContent {
 
+        }
     }
 }
