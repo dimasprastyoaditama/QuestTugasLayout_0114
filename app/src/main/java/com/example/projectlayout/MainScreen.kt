@@ -78,6 +78,12 @@ fun MainScreen(modifier: Modifier = Modifier) {
             teleponColor = colorResource(id = R.color.text_cyan)
         )
 
+        Spacer(modifier = Modifier.weight(1f))
 
+        Text(
+            text = stringResource(id = R.string.copyright),
+            fontSize = 12.sp,
+            modifier = Modifier.padding(bottom = 20.dp)
+        )
     }
 }
