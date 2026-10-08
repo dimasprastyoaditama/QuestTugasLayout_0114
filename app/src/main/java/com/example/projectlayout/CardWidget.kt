@@ -53,7 +53,26 @@ fun CardWidget(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier.weight(1f)
             ) {
-
+                Text(
+                    text = nama,
+                    fontSize = 18.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = namaColor,
+                    fontFamily = FontFamily.Cursive
+                )
+                if (telepon != null && teleponColor != null) {
+                    Text(
+                        text = telepon,
+                        fontSize = 12.sp,
+                        color = teleponColor
+                    )
+                }
+                Text(
+                    text = alamat,
+                    fontSize = 12.sp,
+                    color = alamatColor,
+                    fontWeight = FontWeight.SemiBold
+                )
             }
 
             Image(
